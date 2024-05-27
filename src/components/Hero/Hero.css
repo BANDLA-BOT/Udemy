@@ -1,0 +1,289 @@
+.hero-section{
+    height: 60vh;
+    width: 100%;
+}
+.hero{
+    width: 100%;
+    position: relative;
+}
+.hero h1{
+    font-size: 39px;
+}
+.subscribe{
+    display: flex;
+    top: 70px;
+    gap: 10px;
+    left: 80px;
+    padding: 30px;
+    flex-direction: column;
+    align-items:start;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 250px;
+    background-color: rgb(239, 239, 239);
+    position: absolute;
+}
+.subscribe button{
+    width: 120px;
+    height: 50px;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+
+.allthe{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* margin-top: -100px; */
+    margin-bottom: 20px;
+}
+.allthe h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(67, 67, 67);
+}
+.allthe p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(66, 66, 66);
+}
+.hero-img{
+    width: 100%;
+}
+
+
+@media  screen and (max-width:1626px) {
+            .subscribe h1{
+                font-size: 26px;
+            }
+            .subscribe{
+                width: 300px;
+                height: 200px;
+            }
+            .subscribe p{
+                font-size: 13px;
+            }
+            .subscribe button{
+                height: 80px;
+            }
+}
+@media  screen and (max-width:1330px) {
+   
+    .subscribe{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        left: 0;
+        top: 300px;
+        display: block;
+    }
+  
+    .hero-img{
+        position: relative;
+        top: -200px;
+    }
+    .subscribe h1{
+        font-size: 40px;
+    }
+    .subscribe p{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(131, 131, 131);
+    }
+    .subscribe button{
+        height: 30px;
+        margin-top: 20px;
+    }
+}
+@media  screen and (max-width:1250px) {
+    .subscribe{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        left: 0;
+        top: 280px;
+        display: block;
+    }
+    .hero-img{
+        position: relative;
+        top: -200px;
+    }
+    .subscribe h1{
+        font-size: 40px;
+    }
+    .subscribe p{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(131, 131, 131);
+    }
+    .subscribe button{
+        height: 30px;
+        margin-top: 20px;
+    }
+}
+@media  screen and (max-width:1168px) {
+   
+    .subscribe{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        left: 0;
+        top: 260px;
+        display: block;
+    }
+    .hero-img{
+        position: relative;
+        top: -200px;
+    }
+    .subscribe h1{
+        font-size: 40px;
+    }
+    .subscribe p{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(131, 131, 131);
+    }
+    .subscribe button{
+        height: 30px;
+        margin-top: 20px;
+    }
+}
+@media  screen and (max-width:1057px) {
+   
+    .subscribe{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        left: 0;
+        top: 230px;
+        display: block;
+    }
+    .hero-img{
+        position: relative;
+        top: -200px;
+    }
+    .subscribe h1{
+        font-size: 20px;
+    }
+    .subscribe p{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(131, 131, 131);
+    }
+   
+    .subscribe button{
+        background-color: inherit;
+        color: black;
+        text-decoration: underline;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+@media  screen and (max-width:871px) {
+    .subscribe{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        left: 0;
+        top: 200px;
+        display: block;
+    }
+    .hero-img{
+        position: relative;
+        top: -200px;
+    }
+    .subscribe h1{
+        font-size: 20px;
+    }
+    .subscribe p{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(131, 131, 131);
+    }
+    .subscribe button{
+        background-color: inherit;
+        color: black;
+        text-decoration: underline;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .allthe{
+        margin-top: -100px;
+    }
+    .allthe h1{
+        font-size: 18px;
+    }
+    .allthe p{
+        font-size: 12px;
+    }
+}
+@media  screen and (max-width:957px) {
+   
+    .subscribe{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        left: 0;
+        top: 170px;
+        display: block;
+    }
+    .hero-img{
+        position: relative;
+        top: -200px;
+    }
+    .subscribe h1{
+        font-size: 20px;
+    }
+    .subscribe p{
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgb(131, 131, 131);
+    }
+    .subscribe button{
+        background-color: inherit;
+        color: black;
+        text-decoration: underline;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+@media  screen and (max-width:528px) {
+   
+    .subscribe{
+        width: 100%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: relative;
+        left: 0;
+        /* height: 100px; */
+        top: 100px;
+        display: block;
+    }
+    .hero-img{
+        position: relative;
+        top: -200px;
+    }
+    .subscribe h1{
+        font-size: 16px;
+    }
+    .subscribe p{
+        margin-top: 20px;
+        font-size: 11px;
+        color: rgb(131, 131, 131);
+    }
+    .subscribe button{
+        background-color: inherit;
+        color: black;
+        text-decoration: underline;
+        border: none;
+        font-size: 12px;
+        margin-top: 4px;
+        cursor: pointer;
+    }
+    .allthe{
+        margin-top: -200px;
+    }
+}

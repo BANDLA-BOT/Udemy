@@ -1,0 +1,69 @@
+.trending{
+    height: 300px;
+    background-color: #fdf8ff;
+    width: 100%;
+    margin-top: 79px;
+    height: 400px;
+}
+.trending-hr{
+    border: 1px solid rgb(230, 229, 229);
+    width: 70%;
+    margin: auto;
+    
+}
+header{
+    padding: 20px 0px;
+    width: 70%;
+    margin: auto;
+    font-size: 35px;
+    font-weight: 800;
+    color: rgb(73, 73, 73);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+section{
+    padding-top: 30px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(61, 61, 61);
+}
+section>div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+section>div>h1{
+    font-size: 37px;
+}
+section>div>p{
+    color: rgb(112, 29, 207);
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+section>div>p:hover{
+    color: rgb(72, 106, 255);
+}
+section>div>span{
+    color: rgb(83, 83, 83);
+    font-size: 14px;
+}
+section>div>button{
+    color: rgb(68, 68, 68);
+    font-size: 16px;
+    width: 100%;
+    font-weight: 600;
+    height: 50px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    background-color: transparent;
+}
+section>div>button:hover{
+    background-color: rgb(238, 238, 238);
+}
